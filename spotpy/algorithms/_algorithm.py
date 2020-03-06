@@ -206,7 +206,7 @@ class _algorithm(object):
 
     def __init__(self, spot_setup, dbname=None, dbformat=None, dbinit=True,
                  dbappend=False, parallel='seq', save_sim=True, breakpoint=None,
-                 backup_every_rep=100, save_threshold=-np.inf, db_precision=np.float16,
+                 backup_every_rep=100, save_threshold=-np.inf, db_precision=np.float32,
                  sim_timeout=None, random_state=None, optimization_direction='grid', algorithm_name=''):
 
         # Initialize the user defined setup class
